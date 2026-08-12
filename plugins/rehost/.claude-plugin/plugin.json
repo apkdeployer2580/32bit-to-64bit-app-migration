@@ -1,0 +1,20 @@
+{
+  "name": "rehost",
+  "version": "1.0.0",
+  "description": "Rehost an unmodified 32-bit ARM binary inside a 64-bit process. Feasibility census, loader and HLE bring-up, deterministic headless replay, interpreter differential testing, frame-budget optimisation by porting hot guest functions to the host bit-exactly, behaviour patching, private-server revival, and 64-bit packaging.",
+  "author": {
+    "name": "apkdeployer2580"
+  },
+  "homepage": "https://github.com/apkdeployer2580/32bit-to-64bit-app-migration",
+  "license": "MIT",
+  "keywords": [
+    "emulation",
+    "rehosting",
+    "arm32",
+    "aarch64",
+    "android",
+    "reverse-engineering",
+    "performance",
+    "retro"
+  ]
+}

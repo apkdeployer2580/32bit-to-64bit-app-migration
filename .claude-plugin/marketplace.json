@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "32bit-to-64bit-app-migration",
+  "description": "Rehost a 32-bit ARM game or app inside a 64-bit process — feasibility, bring-up, interpreter correctness, frame optimisation, and shipping.",
+  "owner": {
+    "name": "apkdeployer2580"
+  },
+  "plugins": [
+    {
+      "name": "rehost",
+      "description": "Run an unmodified 32-bit ARM binary inside a 64-bit app: measure the seam, bring it up headless, prove the interpreter, port the hot guest functions to the host until the frame budget holds, and ship it without breaking saves.",
+      "category": "development",
+      "source": "./plugins/rehost",
+      "homepage": "https://github.com/apkdeployer2580/32bit-to-64bit-app-migration"
+    }
+  ]
+}
