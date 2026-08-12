@@ -87,13 +87,14 @@ been left out; what remains is the part that transferred between them.
 
 Some numbers those projects produced, as a sense of what the method is worth:
 
-* interpreter-only → all hot guest functions hosted: **150.7 billion → 72 million**
-  guest instructions over the same 2600-frame deterministic replay (**210×**),
+* interpreter-only → all hot guest functions hosted: **15.1 billion → 72 million**
+  guest instructions over the same 2600-frame deterministic replay (**≈210×**),
   with all 12 dumped frames **pixel-identical** to the unpatched interpreter
-* frames over the 33 ms budget: **205/2600 → 1/2600**
+* frames over the 33 ms budget: **205/2600 → 1/2600**. The mean was never the
+  problem — it sat at a comfortable 10.6 ms the whole time, while p99 was 84.6 ms
 * one menu-open frame: **55.6 million guest instructions → O(w·h)**, identical output
 * the seam that made all of it possible: **79 imported symbols, 14 JNI entry
-  points** against 887 KB of machine code nobody had the source to
+  points** against 878 KB of machine code nobody had the source to
 
 The skills are written in Korean with English frontmatter, matching the
 working notes they were extracted from.
